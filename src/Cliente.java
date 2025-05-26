@@ -34,5 +34,7 @@ public class Cliente {
     // Getters e Setters
     public String getNome() { return nome; }
     public String getCpf() { return cpf; }
+    public String getSenha() { return senha; }
     public List<Conta> getContas() { return contas; }
+
 }
